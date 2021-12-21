@@ -1,0 +1,14 @@
+$(document).ready(function () {
+    $('.slider_image').bjqs({
+        height: 351,
+        width: 707,
+        responsive: true
+    });
+    
+    $('#rules_and_regulation_button').click(function (e) {
+		$('#basic-modal-content').modal();
+
+		return false;
+	});
+
+})
