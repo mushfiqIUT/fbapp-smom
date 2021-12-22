@@ -1,7 +1,7 @@
 <?php
     //facebook application configuration -webpers
-    $fbconfig['appid' ] = "552168648193833";
-    $fbconfig['secret'] = "5278752d519faaede8aff6a0c5f95f79";
+    $fbconfig['appid' ] = "***";
+    $fbconfig['secret'] = "***";
 
     $fbconfig['baseUrl']    =   "http://e.webpers.com/supermom/";
     $fbconfig['appBaseUrl'] =   "http://apps.facebook.com/merilsupermom";// "http://apps.facebook.com/ewebpers";
@@ -40,7 +40,7 @@
     // on whether the user is logged in.
     // If we have a $user id here, it means we know 
     // the user is logged into
-    // Facebook, but we don’t know if the access token is valid. An access
+    // Facebook, but we donâ€™t know if the access token is valid. An access
     // token is invalid if the user logged out of Facebook.
     
     $loginUrl   = $facebook->getLoginUrl(
